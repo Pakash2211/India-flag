@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>india flag</title>
+    <style>
+      #flag{
+        width:260px;
+        height:160px;
+        margin: 250px auto;
+      }
+      .flag-item{
+        height: 33.33%;
+        width: 100%;
+      }
+      .top{
+        background:#FF9933;
+      }
+      .middle{
+        background: #FFFFFF;
+      }
+      .down{
+        background:#138808;
+      }
+      .circle{
+        border:2px solid #000080;
+        width:47px;
+        height:47px;
+        border-radius: 50%;
+        margin: auto;
+        position: relative;
+        animation: circle 5s infinite linear;
+
+      }
+      .line{
+        height:47px;
+        width: 2px;
+        background-color: #000080;
+        position:absolute;
+        left:22px;
+      }
+      .line:nth-child(1){
+        transform: rotate(15deg);
+      }
+      .line:nth-child(2){
+        transform: rotate(30deg);
+      }
+      .line:nth-child(3){
+        transform: rotate(45deg);
+      }
+      .line:nth-child(4){
+        transform: rotate(60deg);
+      }
+      .line:nth-child(5){
+        transform: rotate(75deg);
+      }
+      .line:nth-child(6){
+        transform: rotate(90deg);
+      }
+      .line:nth-child(7){
+        transform: rotate(105deg);
+      }
+      .line:nth-child(8){
+        transform: rotate(120deg);
+      }
+      .line:nth-child(9){
+        transform: rotate(135deg);
+      }
+      .line:nth-child(10){
+        transform: rotate(150deg);
+      }
+      .line:nth-child(11){
+        transform: rotate(165deg);
+      }
+      @keyframes circle{
+  from {
+    transform: rotate(0deg);
+  }
+    to {
+    
+    transform: rotate(360deg);
+  }
+      }
+    </style>
+</head>
+<body>
+    <div id="flag">
+        <div class="top flag-item"></div>
+        <div class="middle flag-item">
+            <div class = "circle">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </div>
+        </div>
+        <div class="down flag-item"></div>
+    </div>
+</body>
+</html>
